@@ -1,0 +1,124 @@
+body {
+    background: url("img/bg.png");
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .header {
+    margin: 38px 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .header .links {
+}
+
+.main .header .links a {
+}
+
+.main .header .links a.btn {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main .header .links a.btn.btn-login {
+    background: url("img/btn-login.png");
+    width: 183px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main .header .links a.btn.btn-register {
+    width: 266px;
+    height: 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #f29c1e, #d3560d);
+    margin-left: 15px;
+}
+
+.main .header .logo {
+}
+
+.main .header .logo img {
+}
+
+.main .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* justify-content: center; */
+    margin: 0 200px;
+    color: #fff;
+}
+
+.main .body .button {
+}
+
+.main .body .button .btn-join {
+    width: 430px;
+    height: 53px;
+    background: url("img/btn-join.png") no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    line-height: 53px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+
+.main .body .txt-join-game {margin-bottom: 26px;}
+
+.main .body .txt-join-game img {
+    width: 900px;
+}
+
+.main .body .txt-gift {
+}
+
+
+.main .body .txt-gift img {
+    width: 900px;
+    margin: 26px 0;
+}
+
+.main .body .detail {margin-top: 33px;}
+
+.main .body .detail .item {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.main .body .detail .item span {
+    color: #ff9910;
+    margin-right: 5px;
+}
+
+.main .body .detail .item .highlight {
+    color: #ff9910;
+    text-decoration: none;
+}
+.main .body .detail .item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.line {
+    background: url("img/line.png");
+    width: 900px;
+    height: 2px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
